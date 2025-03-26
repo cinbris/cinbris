@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina WEB</title>
+    <link rel="stylesheet" href="Estilo7.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="/storage/emulated/0/practica7/imagenes/logotipo.jpg"></a>
+        <h1>Carniceria la bendicion</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="Index.html">INICIO</a></li>
+                <li><a href="somos.html">Quiénes Somos</a></li>
+                <li><a href="producto.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="/storage/emulated/0/practica7/imagenes/imagen18.jpg" width="200" height="200"/> 
+            </div>
+            <div class="derecha">
+                <h2> Carniceria la bendecion</h2>
+                <br>
+                <br>
+                <h2>Mision</h2>
+                <p> Nuestra mision es ofrcer productos de alta calidad</p>    
+                <img src="/storage/emulated/0/practica7/imagenes/imagen15.jpg" width="200" height="200"/>
+                <br>
+                <br>
+                <br>
+                <br>
+            <h2>Vision</h2>
+              <p> Nuestra vision es ser una carniceria reconocida</p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <img src="/storage/emulated/0/practica7/imagenes/imagen16.jpg" width="300" height="200"/>
+                <h2> objetivo </h2>
+                <p> nuestros objetivos es triunfar con nuestra carniceria y que sea una de las mas reconocidas de nuestra comunidad</p>
+                <br>
+                <br>
+                <br>
+                <img src="/storage/emulated/0/practica7/imagenes/imagen17.jpg" width="200" height="200"/>
+                <p> poner video</p>
+                <video src="/storage/emulated/0/practica7/video/video1.mp4" controls autoplay width="200" height="300"poster="video1.mp4">
+                tu navegador no implementa el elemento<code>video</code></video>
+                <audio src="/storage/emulated/0/practica7/audio/audio1.m4a"controls loop
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook:la bendicion</a> |
+            <a href="#" target="_blank">Twitter:la bendicion 2714</a> |
+            <a href="#" target="_blank">Instagram:la bendicion_27</a>
+        </div>
+        <p>Contacto:la bendicion@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
+
